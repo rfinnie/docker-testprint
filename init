@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -e
+
+/usr/sbin/cupsd
+/usr/bin/lpr -P HL-3170CDW /usr/local/share/CMYK_Line_Test_US_Letter.pdf
+
+# No hurry.
+sleep 120

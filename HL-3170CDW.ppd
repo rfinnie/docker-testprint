@@ -1,0 +1,142 @@
+*PPD-Adobe: "4.3"
+*FormatVersion: "4.3"
+*FileVersion: "1.27.4"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PSVersion: "(3010.000) 0"
+*LanguageLevel: "3"
+*FileSystem: False
+*PCFileName: "drvless.ppd"
+*Manufacturer: "Brother"
+*ModelName: "Brother HL-3170CDW series"
+*Product: "(Brother HL-3170CDW series)"
+*NickName: "Brother HL-3170CDW series, driverless, cups-filters 1.27.4"
+*ShortNickName: "Brother HL-3170CDW series"
+*DefaultOutputOrder: Normal
+*ColorDevice: True
+*cupsVersion: 2.3
+*cupsSNMPSupplies: False
+*cupsLanguages: "en"
+*APSupplies: "http://10.9.8.76/net/net/airprint.html"
+*cupsFilter2: "image/urf image/urf 100 -"
+*cupsManualCopies: true
+*OpenUI *PageSize/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: Letter
+*PageSize 3x5/3 x 5″: "<</PageSize[216 360]>>setpagedevice"
+*PageSize A4/A4: "<</PageSize[595.275590551181 841.889763779528]>>setpagedevice"
+*PageSize A5/A5: "<</PageSize[419.527559055118 595.275590551181]>>setpagedevice"
+*PageSize A6/A6: "<</PageSize[297.637795275591 419.527559055118]>>setpagedevice"
+*PageSize B5/JIS B5: "<</PageSize[515.905511811024 728.503937007874]>>setpagedevice"
+*PageSize Env10/Envelope #10: "<</PageSize[296.985826771654 684]>>setpagedevice"
+*PageSize EnvC5/CEnvelope 5: "<</PageSize[459.212598425197 649.133858267717]>>setpagedevice"
+*PageSize EnvDL/Envelope DL: "<</PageSize[311.811023622047 623.622047244094]>>setpagedevice"
+*PageSize EnvMonarch/Envelope Monarch: "<</PageSize[278.985826771654 540]>>setpagedevice"
+*PageSize Executive/Executive: "<</PageSize[522 756]>>setpagedevice"
+*PageSize FanFoldGermanLegal/Foolscap: "<</PageSize[612 936]>>setpagedevice"
+*PageSize Folio/Folio (Special): "<</PageSize[595.275590551181 935.433070866142]>>setpagedevice"
+*PageSize ISOB5/Envelope B5: "<</PageSize[498.897637795276 708.661417322835]>>setpagedevice"
+*PageSize Legal/US Legal: "<</PageSize[612 1008]>>setpagedevice"
+*PageSize Letter/US Letter: "<</PageSize[612 792]>>setpagedevice"
+*CloseUI: *PageSize
+*OpenUI *PageRegion/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: Letter
+*PageRegion 3x5/3 x 5″: "<</PageSize[216 360]>>setpagedevice"
+*PageRegion A4/A4: "<</PageSize[595.275590551181 841.889763779528]>>setpagedevice"
+*PageRegion A5/A5: "<</PageSize[419.527559055118 595.275590551181]>>setpagedevice"
+*PageRegion A6/A6: "<</PageSize[297.637795275591 419.527559055118]>>setpagedevice"
+*PageRegion B5/JIS B5: "<</PageSize[515.905511811024 728.503937007874]>>setpagedevice"
+*PageRegion Env10/Envelope #10: "<</PageSize[296.985826771654 684]>>setpagedevice"
+*PageRegion EnvC5/CEnvelope 5: "<</PageSize[459.212598425197 649.133858267717]>>setpagedevice"
+*PageRegion EnvDL/Envelope DL: "<</PageSize[311.811023622047 623.622047244094]>>setpagedevice"
+*PageRegion EnvMonarch/Envelope Monarch: "<</PageSize[278.985826771654 540]>>setpagedevice"
+*PageRegion Executive/Executive: "<</PageSize[522 756]>>setpagedevice"
+*PageRegion FanFoldGermanLegal/Foolscap: "<</PageSize[612 936]>>setpagedevice"
+*PageRegion Folio/Folio (Special): "<</PageSize[595.275590551181 935.433070866142]>>setpagedevice"
+*PageRegion ISOB5/Envelope B5: "<</PageSize[498.897637795276 708.661417322835]>>setpagedevice"
+*PageRegion Legal/US Legal: "<</PageSize[612 1008]>>setpagedevice"
+*PageRegion Letter/US Letter: "<</PageSize[612 792]>>setpagedevice"
+*CloseUI: *PageRegion
+*DefaultImageableArea: Letter
+*DefaultPaperDimension: Letter
+*ImageableArea 3x5: "12.245669291339 12.245669291339 203.754330708661 347.754330708661"
+*PaperDimension 3x5: "216 360"
+*ImageableArea A4: "12.245669291339 12.245669291339 583.029921259842 829.644094488189"
+*PaperDimension A4: "595.275590551181 841.889763779528"
+*ImageableArea A5: "12.245669291339 12.245669291339 407.28188976378 583.029921259842"
+*PaperDimension A5: "419.527559055118 595.275590551181"
+*ImageableArea A6: "12.245669291339 12.245669291339 285.392125984252 407.28188976378"
+*PaperDimension A6: "297.637795275591 419.527559055118"
+*ImageableArea B5: "12.245669291339 12.245669291339 503.659842519685 716.258267716535"
+*PaperDimension B5: "515.905511811024 728.503937007874"
+*ImageableArea Env10: "12.245669291339 12.245669291339 284.740157480315 671.754330708661"
+*PaperDimension Env10: "296.985826771654 684"
+*ImageableArea EnvC5: "12.245669291339 12.245669291339 446.966929133858 636.888188976378"
+*PaperDimension EnvC5: "459.212598425197 649.133858267717"
+*ImageableArea EnvDL: "12.245669291339 12.245669291339 299.565354330709 611.376377952756"
+*PaperDimension EnvDL: "311.811023622047 623.622047244094"
+*ImageableArea EnvMonarch: "12.245669291339 12.245669291339 266.740157480315 527.754330708661"
+*PaperDimension EnvMonarch: "278.985826771654 540"
+*ImageableArea Executive: "12.245669291339 12.245669291339 509.754330708661 743.754330708661"
+*PaperDimension Executive: "522 756"
+*ImageableArea FanFoldGermanLegal: "12.245669291339 12.245669291339 599.754330708661 923.754330708661"
+*PaperDimension FanFoldGermanLegal: "612 936"
+*ImageableArea Folio: "12.245669291339 12.245669291339 583.029921259842 923.187401574803"
+*PaperDimension Folio: "595.275590551181 935.433070866142"
+*ImageableArea ISOB5: "12.245669291339 12.245669291339 486.651968503937 696.415748031496"
+*PaperDimension ISOB5: "498.897637795276 708.661417322835"
+*ImageableArea Legal: "12.245669291339 12.245669291339 599.754330708661 995.754330708661"
+*PaperDimension Legal: "612 1008"
+*ImageableArea Letter: "12.245669291339 12.245669291339 599.754330708661 779.754330708661"
+*PaperDimension Letter: "612 792"
+*HWMargins: "12.245669291339 12.245669291339 12.245669291339 12.245669291339"
+*ParamCustomPageSize Width: 1 points 216 612
+*ParamCustomPageSize Height: 2 points 360 1008
+*ParamCustomPageSize WidthOffset: 3 points 0 0
+*ParamCustomPageSize HeightOffset: 4 points 0 0
+*ParamCustomPageSize Orientation: 5 int 0 3
+*CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/ImagingBBox null>>setpagedevice"
+*OpenUI *InputSlot/Media Source: PickOne
+*OrderDependency: 10 AnySetup *InputSlot
+*DefaultInputSlot: Auto
+*InputSlot Auto/Automatic: "<</MediaPosition 0>>setpagedevice"
+*InputSlot Manual/Manual: "<</MediaPosition 4>>setpagedevice"
+*InputSlot Tray1/Tray 1: "<</MediaPosition 20>>setpagedevice"
+*CloseUI: *InputSlot
+*OpenUI *MediaType/Media Type: PickOne
+*OrderDependency: 10 AnySetup *MediaType
+*DefaultMediaType: Stationery
+*MediaType Stationery/Stationery: "<</MediaType(Stationery)>>setpagedevice"
+*MediaType StationeryLightweight/Lightweight Paper: "<</MediaType(StationeryLightweight)>>setpagedevice"
+*MediaType StationeryHeavyweight/Heavyweight Paper: "<</MediaType(StationeryHeavyweight)>>setpagedevice"
+*MediaType StationeryCover: "<</MediaType(StationeryCover)>>setpagedevice"
+*MediaType Envelope/Envelope: "<</MediaType(Envelope)>>setpagedevice"
+*MediaType EnvelopeHeavyweight/Heavyweight Envelope: "<</MediaType(EnvelopeHeavyweight)>>setpagedevice"
+*MediaType EnvelopeLightweight/Lightweight Envelope: "<</MediaType(EnvelopeLightweight)>>setpagedevice"
+*MediaType StationeryRecycled: "<</MediaType(StationeryRecycled)>>setpagedevice"
+*MediaType Labels/Labels: "<</MediaType(Labels)>>setpagedevice"
+*MediaType PhotographicGlossy/Glossy Photo Paper: "<</MediaType(PhotographicGlossy)>>setpagedevice"
+*MediaType StationeryBond: "<</MediaType(StationeryBond)>>setpagedevice"
+*CloseUI: *MediaType
+*OpenUI *ColorModel/Print Color Mode: PickOne
+*OrderDependency: 10 AnySetup *ColorModel
+*ColorModel RGB/Color: "<</cupsColorSpace 19/cupsBitsPerColor 8/cupsColorOrder 0/cupsCompression 0>>setpagedevice"
+*ColorModel Gray/Monochrome: "<</cupsColorSpace 18/cupsBitsPerColor 8/cupsColorOrder 0/cupsCompression 0>>setpagedevice"
+*DefaultColorModel: RGB
+*CloseUI: *ColorModel
+*OpenUI *Duplex/2-Sided Printing: PickOne
+*OrderDependency: 10 AnySetup *Duplex
+*DefaultDuplex: None
+*Duplex None/Off: "<</Duplex false>>setpagedevice"
+*Duplex DuplexNoTumble/On (Portrait): "<</Duplex true/Tumble false>>setpagedevice"
+*Duplex DuplexTumble/On (Landscape): "<</Duplex true/Tumble true>>setpagedevice"
+*CloseUI: *Duplex
+*cupsBackSide: Normal
+*DefaultResolution: 600dpi
+*OpenUI *cupsPrintQuality/Print Quality: PickOne
+*OrderDependency: 10 AnySetup *cupsPrintQuality
+*DefaultcupsPrintQuality: Normal
+*cupsPrintQuality Normal/Normal: "<</HWResolution[600 600]>>setpagedevice"
+*cupsPrintQuality High/High: "<</HWResolution[600 600]>>setpagedevice"
+*CloseUI: *cupsPrintQuality
